@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Veterinaria Online - Contacto</title>
+</head>
+<body>
+  <header>
+    <h1>Contacto</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Información de Contacto</h2>
+    <p>Puedes contactarnos a través de:</p>
+    <ul>
+      <li>Teléfono: 3002806729</li>
+      <br>
+      <li>Correo electrónico: tiendacaninaonline@gmail.com</li>
+     
+      <!-- Agrega más información de contacto si es necesario -->
+    </ul>
+    <form action="enviar_contacto.php" method="post">  
+      <label for="nombre">Nombre:</label> <br> 
+      <input type="text" id="nombre" name="nombre" required>
+      <br> 
+      <label for="email">Correo electrónico:</label><br>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="mensaje">Mensaje:</label>
+      <br>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <br>
+      <button type="submit">Enviar Mensaje</button>
+    </form>
+  </main>
+  <footer>
+    <p>Derechos de autor &copy; 2024 Tienda Veterinaria Online</p>
+  </footer>
+</body>
+</html>
